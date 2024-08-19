@@ -1,0 +1,33 @@
+// src/styles/NavBar.scss
+.nav-bar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 98%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    z-index: 1000; 
+  
+    .logo img {
+      height: 40px;
+    }
+  
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+  
+      li a {
+        color: white;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
